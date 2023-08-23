@@ -1,0 +1,8 @@
+nav{
+    border: none;
+}
+#navcompo{
+    
+    position: sticky;
+    left: 90%;
+}

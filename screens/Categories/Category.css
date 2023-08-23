@@ -1,0 +1,37 @@
+.category{
+    background-color: #ebe6e6;
+}
+
+.cardsimg{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+
+}
+.text{
+    padding: 10px 0;
+    text-align: center;
+    font-family: Helvetica;
+}
+.restaurant{
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+
+}
+.restaurant .afterhover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.restaurant:hover .afterhover {
+    display: inline-block;
+}
+h1{
+    text-decoration: dashed;
+}
